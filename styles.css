@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    background-color: #d8d8b8;
+    
+}
+
+nav{
+ background-color:#726230;
+}
+
+h1 {
+    padding-top: 7rem;
+    padding-left: 6rem;
+    font-size: 3rem;
+    margin: 2.3rem 0 1.68rem 0;
+}
+h2 {
+    padding-top: 5rem;
+    padding-left: 6rem;
+    font-size: 3.2rem;
+    margin: 2.3rem 0 1.68rem 0;
+}
+
+.text1{
+    padding-left: 6rem;
+    font-size: 1.3rem;
+    height: 25rem;
+    width: 59rem;
+
+}
+
+.text0{
+    
+    padding-left: 6rem;
+    font-size: 1.3rem;
+    height: 13.1rem;
+    width: 59rem;
+    
+}
+
+.text2{
+    padding-left: 6rem;
+    font-size: 1.3rem;
+    height: 10rem;
+    width: 59rem;
+ 
+}
+.text3{
+    padding-left: 6rem;
+    padding-bottom: 14rem;
+    font-size: 1.3rem;
+    height: 11rem;
+    width: 59rem;
+  
+}
+
+.text4{
+    padding-left: 6rem;
+    padding-bottom: 16rem;
+    font-size: 1.3rem;
+    height: 11rem;
+    width: 59rem;
+
+}
+
+.img1{
+    margin: 5.9rem;
+    border-radius: 5px;
+    height: 380px;
+    width: 650px;
+    background-color: rgba(4, 46, 13, 0.877);
+}
+.img1 img{
+    margin-top: 1.5rem;
+    border-radius: 5px;
+       
+}
+
+.title-gen{
+    
+    padding-left: 6rem;
+    font-size: 2.2rem;
+    color: rgb(114, 114, 114);
+
+}
+
+figure img{
+ 
+    padding-left: 3.4rem;
+    padding-top:1.8rem ;
+ 
+}
+
+.lg-m{
+    padding: 800px;
+}
+
+.logo-mine{
+   width: 250px;
+   padding-top: 1.1rem;
+   padding-left: 2rem;
+}
+
+figcaption{
+    padding-left: 3.4rem;
+    color: #757575;
+}
+
+@media (max-width: 600px){
+
+    .lg-m{
+        padding: 10px;
+    }
+    
+    .logo-mine{
+       width:180px;
+       padding-top: 10px;
+       padding-left: 10px;
+    }
+
+    h1 {
+        padding-top: 30px;
+
+        padding-left: 35px;
+        font-size: 20px;
+    
+    }
+
+    .text1{
+        padding-left: 35px;
+        font-size: 17px;
+        width: 300px;
+        height: 790px;
+      
+        
+    
+        
+    }
+
+    .img1{
+      position: relative;
+      bottom: 54px;
+      right: 84px;
+      width: 300px;
+      background-image: url("https://t2.tudocdn.net/606269?w=1920");
+     
+      height: 300px;
+    }
+    .img1 img {
+        position: relative;
+        visibility: hidden;
+       
+           
+    }
+
+    h2 {
+        position: relative;
+        bottom: 125px;
+        padding-left: 35px;
+        font-size: 35px;
+        margin: 2.3rem 0 1.68rem 0;
+    }
+
+    .text0{
+        position: relative;
+
+        bottom: 110px;
+        padding-left: 35px;
+        font-size: 17px;
+        width: 300px;
+        height: 380px;
+      
+        
+    }
+
+    .title-gen{
+        position: relative;
+        bottom: 90px;
+        padding-left:35px;
+        font-size: 15px;
+        color: rgb(114, 114, 114);
+    
+    }
+
+    figure img{
+        position: relative;
+        bottom: 90px;
+        right: 50px;
+        padding-left: 35px;
+        width: 300px;
+        height: 280px;
+
+     
+    }
+    figcaption{
+        position: relative;
+        font-size: 10px;
+        bottom: 90px;
+        right: 50px;
+        width: 400px;
+        padding-left:35px;
+       
+        color: #757575;
+    }
+    .text2{
+        position: relative;
+        bottom: 80px;
+        padding-left: 35px;
+        font-size: 17px;
+        width: 300px;
+        height: 339px;
+    
+     
+    }
+    .text3{
+        position: relative;
+        bottom: 80px;
+        padding-left: 35px;
+        font-size: 17px;
+        width: 300px;
+        height: 380px;
+      
+        
+      
+    }
+
+    .text4{
+        position: relative;
+        bottom: 80px;
+        padding-left: 35px;
+        font-size: 17px;
+        width: 300px;
+        height: 420px;
+       
+      
+    }
+    }
